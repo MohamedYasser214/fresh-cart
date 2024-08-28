@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active{
+    font-weight: 600;
+    color: rgb(79, 187, 79);  
+    
+
+}
+body{
+    font-family: var(--font-family) !important;
+}
+
+#root > div.container.py-14 {
+    padding-top: 0 !important;
+}
+
+
